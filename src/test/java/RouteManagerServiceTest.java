@@ -1,5 +1,5 @@
-import br.com.concrete.desafios.repository.RouteManagerRepository;
-import br.com.concrete.desafios.service.RouteManagerService;
+import br.com.concrete.desafios.routemamager.repository.RouteManagerRepository;
+import br.com.concrete.desafios.routemamager.service.RouteManagerService;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
