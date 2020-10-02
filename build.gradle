@@ -1,0 +1,21 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+
+dependencies {
+    testCompile group: 'org.junit.jupiter', name: 'junit-jupiter', version: '5.7.0'
+    testCompile group: 'org.mockito', name: 'mockito-core', version: '3.5.13'
+    testCompile group: 'org.mockito', name: 'mockito-junit-jupiter', version: '3.5.13'
+}
+
+test {
+    useJUnitPlatform()
+}
